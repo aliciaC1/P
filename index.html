@@ -5,138 +5,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="shortcut icon" type="image/png" href="./assets/images/ghibli_main_logoicon.gif">
-    <link href="https://fonts.googleapis.com/css?family=Arimo|Poppins|Raleway" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Cormorant+Unicase|Cuprum|Rajdhani|Rokkitt|Shadows+Into+Light" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/style.css"/>
-    <title>Giphy API</title>
+    <title>Alicia Chan</title>
 </head>
 <body>
-
     <div class = "container">
         <div class = "row">
-        <img class="img-head" src="./assets/images/tumblr_mkl744ErLi1s1byhpo1_250.gif">
-        <!-- <h1>Studio Ghibli Gifs</h1> -->
+         <h1>A</h1>
         </div>
-        <!--Interactive header-->
         <div class = "row">
-            <div class = "icon-container">
-                      <!--Icons-->
-                        <img class="btn btn-primary" data-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample1" class ="icon" src ="assets/images/ghibli-1.png">
-                        <img class="btn btn-primary" data-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample2" class ="icon" src ="assets/images/ghibli-2.png">
-                        <img class="btn btn-primary" data-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="false" aria-controls="collapseExample3" class ="icon" src ="assets/images/ghibli-3.png">
-                        <img class="btn btn-primary" data-toggle="collapse" href="#collapseExample4" role="button" aria-expanded="false" aria-controls="collapseExample4"class ="icon" src ="assets/images/ghibli-4.png">
-                        <img class="btn btn-primary" data-toggle="collapse" href="#collapseExample5" role="button" aria-expanded="false" aria-controls="collapseExample5" class ="icon" src ="assets/images/ghibli-5.png">
-                        <img class="btn btn-primary" data-toggle="collapse" href="#collapseExample6" role="button" aria-expanded="false" aria-controls="collapseExample6" class ="icon" src ="assets/images/ghibli-6.png">
-                        <img class="btn btn-primary" data-toggle="collapse" href="#collapseExample7" role="button" aria-expanded="false" aria-controls="collapseExample7" class ="icon" src ="assets/images/ghibli-7.png">
-                        <img class="btn btn-primary" data-toggle="collapse" href="#collapseExample8" role="button" aria-expanded="false" aria-controls="collapseExample8" class ="icon" src ="assets/images/ghlibli-8.png">
-                        <img class="btn btn-primary" data-toggle="collapse" href="#collapseExample9" role="button" aria-expanded="false" aria-controls="collapseExample9"class ="icon" src ="assets/images/ghlibli-9.png">
-                        <img class="btn btn-primary" data-toggle="collapse" href="#collapseExample10" role="button" aria-expanded="false" aria-controls="collapseExample10"class ="icon" src ="assets/images/ghlibli-10.png">
-                        <img class="btn btn-primary" data-toggle="collapse" href="#collapseExample11" role="button" aria-expanded="false" aria-controls="collapseExample11"class ="icon" src ="assets/images/ghilbli-11.png">
-                        <img class="btn btn-primary" data-toggle="collapse" href="#collapseExample12" role="button" aria-expanded="false" aria-controls="collapseExample12"class ="icon" src ="assets/images/ghlibli-12.png">
-                        
-                         <!--Collapsible Facts-->  
-                        <div class="collapse" id="collapseExample1">
-                            <div class="card card-body">
-                              1941 : Hayao Miyazaki, co-founder of Studio Ghibli. 
-                            </div>
-                        </div>
-                        <div class="collapse" id="collapseExample2">
-                            <div class="card card-body">
-                                  1979 : Lupin the Third: The Castle of Cagliostro - feature film debut.
-                            </div>
-                        </div>
-                        <div class="collapse" id="collapseExample3">
-                             <div class="card card-body">
-                                1984 : Nausicaä of the Valley of the Wind - frequently ranked as one of the greatest animated films ever made.
-                             </div>
-                        </div>
-                        <div class="collapse" id="collapseExample4">
-                            <div class="card card-body">
-                                 1986 : Castle In the Sky - the very first film animated by Studio Ghibli.
-                            </div>
-                        </div>
-                        <div class="collapse" id="collapseExample5">
-                                <div class="card card-body">
-                                     1988 : My Neighbor Totoro - critically acclaimed and has amassed a worldwide cult following in the years after its release.
-                                </div>
-                        </div>
-                        <div class="collapse" id="collapseExample6">
-                                <div class="card card-body">
-                                     1989 : Kiki's Delivery Service - first Studio Ghibli film released under the 15 year distribution partnership between The Walt Disney Company and Studio Ghibli.
-                                </div>
-                        </div>
-                        <div class="collapse" id="collapseExample7">
-                                <div class="card card-body">
-                                     1992 : Porco Rosso - one of the few films directed by Hayao Miyazaki in which the historical and geographical settings are clearly defined and where most of the story could have happened in the real world.
-                                </div>
-                        </div>
-                        <div class="collapse" id="collapseExample8">
-                                <div class="card card-body">
-                                     1997 : Princess Mononoke - first animated feature film to win Best Picture in the Japan Academy Prize.
-                                </div>
-                        </div>
-                        <div class="collapse" id="collapseExample9">
-                                <div class="card card-body">
-                                     2001 : Spirited Away - won the Academy Award for Best Animated Feature at the 75th Academy Awards, making it the only hand drawn and non-English language animated film.
-                                </div>
-                        </div>
-                        <div class="collapse" id="collapseExample10">
-                                <div class="card card-body">
-                                     2004 : Howl's Moving Castle - Miyazaki said the film was his favorite creation, explaining "I wanted to convey the message that life is worth living, and I don't think that's changed."
-                                </div>
-                        </div>
-                        <div class="collapse" id="collapseExample11">
-                                <div class="card card-body">
-                                     2008 : Ponyo - the eighth film Miyazaki directed for Ghibli, and his tenth overall.
-                                </div>
-                        </div>
-                        <div class="collapse" id="collapseExample12">
-                                <div class="card card-body">
-                                     2013 : The Wind Rises - the final film directed by Miyazaki before his retirement in September 2013.
-                                </div>
-                        </div>
-            </div>
+           <h2>Alicia Chan</h2>
         </div>
+        <div class = "row">
+           <h3> -- designer who codes </h3>
+        </div>
+        <div class = "row">
+           <h5> Detailed oriented designer + developer who problem solves by merging design with code to achieve solutions beyond pixel perfect. </h5>
+        </div>
+       <hr>
+            <a href="mailto:chan.aliciaw@gmail.com"><i class="fas fa-envelope-square fa-2x"></i></a>
+            <a href="https://www.linkedin.com/in/alicia-c-6b13884a/"><i class="fab fa-linkedin fa-2x"></i></a>
+            <a href="https://github.com/aliciaC1"><i class="fab fa-github-square fa-2x"></i></a>
 
-        <div class = "main-container">
-            <div class = "row">
-            <!--Gif Button Selection + Form -->
-                <div class = "col-md-3">
-                    <div class = "sidebar">
-                        <div id ="gif-append"></div>
-                    <!-- <button type="button" class="btn btn-outline-dark" class="btn btn-primary" data-toggle="collapse" href="#collapseExample13" role="button" aria-expanded="false" aria-controls="collapseExample13">  Favorites <i class="far fa-star"></i></button> -->
-                        <div id = "buttons-view"></div>
-                        <form id="film-form">
-                                <label for "film-input"></label>
-                                <input type ="text" id= "film-input">
-                                <br>
-                                <input id = "add-film" type="submit" type="button" class="btn btn-outline-dark" value ="ADD ANOTHER FILM">
-                            </form>
-                        </div>
-                </div>
-                <div class = "col-md-9">
-                             <!--Favorites Gif Display -->
-                        <div class="collapse" id="collapseExample13">
-                                <div class="card card-body">
-                                    <div class = "fav-img"> </div>
-                                </div>
-                        </div>
-                    <hr>
-                        <!--Gif Grid Display -->
-                    <div class = "grid" id ="gif-view"></div>
-                </div>
-            </div>
-        </div>
+        <!-- <br>
+        <br>
+        <hr>
+      <div class = "row listskills">
+        <hr>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                     <h4>Web Development</h4>
+                     <img class="webd" src="./assets/imgs/webskill.png"/>
+                </li>
+                <li class="list-group-item">
+                    <h4>Design</h4>
+                    <img class="design" src="./assets/imgs/dskill.png"/>
+                </li>
+                <li class="list-group-item">
+                    <h4>Fashion</h4>
+                    <img class="fash" src="./assets/imgs/fskill.png"/>
+                </li>
+                <li class="list-group-item">
+                    <h4>Languages</h4>
+                    <img class="lang" src="./assets/imgs/lang.png"/>
+                </li>
+            </ul>
+        </div> -->
     </div>
 
-
-
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="./assets/javascript/giphy2.js"></script> 
 </body>
 </html>
