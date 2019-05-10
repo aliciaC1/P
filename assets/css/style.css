@@ -1,0 +1,60 @@
+body{
+    align-content: center;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    background-color:#efefef;
+}
+.container{
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: .5rem;
+    font-weight: 200;
+    line-height: 3;
+    text-align: center;
+}
+H2{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+h3{
+    color: #8ab7c7;
+    font-style: oblique;
+}
+h4{
+    text-transform: uppercase;
+}
+h5{
+    font-family:helvetica;
+    font-weight: 100;
+    color:#0000007d;
+}
+img.webd{
+    height: 257px;
+}
+img.design{
+    height: 108px;
+}
+
+img.fash{
+    height:130px;
+}
+img.lang{
+    height: 166px;
+}
+
+a{
+    margin-top: -11px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #7b7b7b;
+}
+a:hover{
+    color: black;
+}
+
+ul{
+    margin-right: 10%;
+}
