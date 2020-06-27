@@ -13,7 +13,7 @@ h1, h2, h3, h4, h5, h6 {
     margin: auto;
     margin-bottom: .5rem;
     font-weight: 200;
-    text-align: center;
+    text-align: left;
 }
 H2{
     text-transform: uppercase;
